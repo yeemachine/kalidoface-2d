@@ -1,31 +1,22 @@
-# Kalidoface - Control characters with your webcam.
+# Kalidoface - Become a virtual character using your webcam.
 
- ✨ A PWA that let's you stream or chat using Live2D avatars.
+ ✨ Whether it's for livestreaming or just chatting with friends, Kalidoface will animate your facial expressions in real time.
 
 ### Face Detection
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+Kalidoface uses Face Landmarks Detection pre-trained model as a base for live facial expression tracking.
 
 ### Use your own Live2D models
 
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+Kalidoface currently supports Live2D rigged characters from the Cubism 4.0 and 2.0 runtime files. Drag a zip of your Live2D runtime folder to replace the default models. Full docs coming soon.
 
 ### Upload custom background
 
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+Upload your own custom backgrounds or use the included green screen palette for keying in software like OBS.
 
 ### Call a friend
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like "@snowpack/plugin-webpack" or "@snowpack/plugin-parcel" to your `snowpack.config.json` config file.
+Have 1 on 1 calls with your friends using expressive avatars when you're not in the mood for video.
 
 
 All Live2D models are redistributed under

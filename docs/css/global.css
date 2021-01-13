@@ -1,15 +1,22 @@
 @font-face {
   font-family: "Jelly";
   font-display:block;
-  src: url("https://cdn.glitch.com/639e13e5-1f3c-40a0-9290-a02a8b4a9703%2FKalido3GX.ttf?v=1607391423083")
+  src: url("https://raw.githubusercontent.com/yeemachine/kalidoface-live2d-models/main/Font/kalidoface-jelly.ttf")
     format("truetype");
 }
 
 @font-face {
   font-family: "Kalicon";
   font-display:block;
-  src: url("https://cdn.glitch.com/cbfaa5f3-c2a4-49b3-a55d-234afe82a6b9%2FKalidoface5-Regular.otf?v=1609752274196")
+  src: url("https://raw.githubusercontent.com/yeemachine/kalidoface-live2d-models/main/Font/kalidoface-regular.otf")
     format("opentype");
+}
+
+@font-face {
+  font-family: "Kalicon Variable";
+  font-display:block;
+  src: url("https://raw.githubusercontent.com/yeemachine/kalidoface-live2d-models/main/Font/kalidoface-variable.ttf")
+    format("truetype");
 }
 
 @keyframes jiggle {
@@ -17,13 +24,25 @@
   100% { font-variation-settings: "wght" 250; }
 }
 
+@keyframes greenBG {
+  0%   { background: #4bc34b; }
+  50% { background: #95ef95 }
+  100% { background: #4bc34b }
+}
+
+@keyframes drawAcross {
+  0%   { width: 0%; }
+  100% { width: 100% }
+}
+
 :root {
   --offblack: #16161d;
-  --lapizBlue: #0681ee;
-  --lightBlue:#209be6;
+  --lapizBlue: #4450F3;
+  --lightBlue:#009df7;
   --lapizGrey:#3f3f4e;
   --lightRed:rgb(189 70 106);
-  --iconbg: #58586e;
+/*   --iconbg: #58586e; */
+  --iconbg:#504e62;
   --accent: #233db5;
   --pos: #109210;
   --neg: #c51d1d;
@@ -44,9 +63,6 @@ body,i,input,button{
                "Helvetica Neue", sans-serif;
 }
 body {
-  --bg-image:url('https://cdn.glitch.com/cbfaa5f3-c2a4-49b3-a55d-234afe82a6b9%2Fmellyjelly.jpeg?v=1609758111232');
-/*   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -150,6 +166,14 @@ body.user-is-tabbing input:focus + container {
   -webkit-font-smoothing: antialiased;
   touch-action:none;
 }
+.kalicon.variable{
+  font-family: "Kalicon Variable";
+  transition: font-variation-settings .2s;
+  font-variation-settings: "anim" 0;
+}
+.kalicon.variable.end{
+  font-variation-settings: "anim" 100;
+}
 
 .icon {
   display: inline-block;
@@ -162,7 +186,7 @@ body.user-is-tabbing input:focus + container {
   transform: scale(1);
   transition: 0.15s;
   font-size: 64px;
-  text-shadow: -1px 1px 2px #00000030;
+  text-shadow: 0px 0px 4px #00000030;
   pointer-events:none;
   /*   transition: .5s;
   font-variation-settings: "wght" 100;
