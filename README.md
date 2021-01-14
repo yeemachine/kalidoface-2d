@@ -20,7 +20,7 @@ Have one-on-one calls with your friends using expressive avatars when you're not
 
 ### Upload custom background
 
-Upload your own backgrounds, or use the <b>chroma key colors</b> for keying in special software such as OBS.
+Upload your own backgrounds, or use the chroma key colors for keying in special software such as OBS.
 
 
 All Live2D models are redistributed under
