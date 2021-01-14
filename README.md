@@ -15,13 +15,14 @@ Kalidoface works with Live2D rigged characters from Cubism 2.0 and 4.0 files. Up
 
 Have one-on-one calls with your friends using expressive avatars when you're not in the mood for regular video.
 
-![Kalidoface virtual webcam](https://raw.githubusercontent.com/yeemachine/kalidoface-live2d-models/main/promo/call-2-short.gif)
+![Peer to Peer chat](https://raw.githubusercontent.com/yeemachine/kalidoface-live2d-models/main/promo/call-2-short.gif)
 
 
 ### Upload custom background
 
 Upload your own backgrounds, or use the chroma key colors for keying in special software such as OBS.
 
+![Chroma Keys](https://raw.githubusercontent.com/yeemachine/kalidoface-live2d-models/main/promo/bg-green.jpg)
 
 All Live2D models are redistributed under
 Live2D's [Free Material License](https://www.live2d.com/eula/live2d-free-material-license-agreement_en.html).
