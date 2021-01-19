@@ -9,18 +9,19 @@ dependencies:
   '@pixi/sprite': 5.3.7
   '@pixi/ticker': 5.3.7
   '@pixi/utils': 5.3.7
+  '@pwabuilder/pwaupdate': 0.2.0
   '@tensorflow-models/face-landmarks-detection': 0.0.2
-  '@tensorflow/tfjs-backend-wasm': 2.8.2
-  '@tensorflow/tfjs-backend-webgl': 2.8.2
-  '@tensorflow/tfjs-converter': 2.8.2
-  '@tensorflow/tfjs-core': 2.8.2
+  '@tensorflow/tfjs-backend-wasm': 2.8.4
+  '@tensorflow/tfjs-backend-webgl': 2.8.4
+  '@tensorflow/tfjs-converter': 2.8.4
+  '@tensorflow/tfjs-core': 2.8.4
   interactjs: 1.10.2
   jszip: 3.5.0
   parcel: 1.12.4
   peerjs: 1.3.1
   pixi-live2d-display: 0.3.0-beta.2
-  svelte: 3.31.1
-  svelte-hmr: 0.12.2
+  svelte: 3.31.2
+  svelte-hmr: 0.12.3
   svelte-loader: 2.13.6
   svelte-preprocess: 4.6.1
 devDependencies:
@@ -1147,6 +1148,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-f8zAeHHURxfwBr8MZiXEIwY2h9wbS6vN0ypvapGvKFOexZ1EInTs35FhEiRWzLEPLHyn1RgCdKzR2zl++E4tIw==
+  /@pwabuilder/pwaupdate/0.2.0:
+    dependencies:
+      lit-element: 2.4.0
+    dev: false
+    resolution:
+      integrity: sha512-qm9ocHZFeEK0kLXu9Cxf+R7C71rIOHaeRpUYeI2uf5t+KYHkvxAL3rnUOzx9UZgM+ibSHypZxagwEs5uVxtk5A==
   /@rollup/plugin-alias/3.1.1/rollup@2.35.1:
     dependencies:
       rollup: 2.35.1
@@ -1388,7 +1395,7 @@ packages:
       '@tensorflow/tfjs-core': ^2.4.0
     resolution:
       integrity: sha512-dgniPMSchWwj2DBqqlvDA2NBMY5oDaQF1vUjz9IQQCXO4qtA0Q0z0ntjO7K+sJuNwSP3qoDeespxuEhBgpQgGg==
-  /@tensorflow/tfjs-backend-cpu/2.8.2:
+  /@tensorflow/tfjs-backend-cpu/2.8.4:
     dependencies:
       '@types/seedrandom': 2.4.27
       seedrandom: 2.4.3
@@ -1396,21 +1403,21 @@ packages:
     engines:
       yarn: '>= 1.3.2'
     peerDependencies:
-      '@tensorflow/tfjs-core': 2.8.2
+      '@tensorflow/tfjs-core': 2.8.4
     resolution:
-      integrity: sha512-/puqtocadSmwW+ntiuW6UMhcYk1laMTr1hoWqyvMinaVwxSZwOyfRqDyF9snxHLfCW3uS8HX02LRqh9B4AzD0A==
-  /@tensorflow/tfjs-backend-wasm/2.8.2:
+      integrity: sha512-XYoUIQSRGhXHOovVv43DKzuZ+97eE/0jESSqrIogFPNGyzwcmatJcduROaBS9dP1XOKMenbN0DHB2QvI1qIRhw==
+  /@tensorflow/tfjs-backend-wasm/2.8.4:
     dependencies:
-      '@tensorflow/tfjs-backend-cpu': 2.8.2
+      '@tensorflow/tfjs-backend-cpu': 2.8.4
       '@types/emscripten': 0.0.34
     dev: false
     peerDependencies:
-      '@tensorflow/tfjs-core': 2.8.2
+      '@tensorflow/tfjs-core': 2.8.4
     resolution:
-      integrity: sha512-smt06cLHJMmiOu0laNhS1xOug9EtWz0Orm/MBELFwYfmJC5u95wAX83Ix9zBEu/wsyP0PFAdX4zEN8BCaez7kA==
-  /@tensorflow/tfjs-backend-webgl/2.8.2:
+      integrity: sha512-rHzXKQQpvMbyzjD7c8eDJruH2jZnVxBG4zdE52LEJ+4ydO4K3iLP/BjuB57EJl/r7qBDLcSYejV3cnLewLOmUA==
+  /@tensorflow/tfjs-backend-webgl/2.8.4:
     dependencies:
-      '@tensorflow/tfjs-backend-cpu': 2.8.2
+      '@tensorflow/tfjs-backend-cpu': 2.8.4
       '@types/offscreencanvas': 2019.3.0
       '@types/seedrandom': 2.4.27
       '@types/webgl-ext': 0.0.30
@@ -1420,16 +1427,16 @@ packages:
     engines:
       yarn: '>= 1.3.2'
     peerDependencies:
-      '@tensorflow/tfjs-core': 2.8.2
+      '@tensorflow/tfjs-core': 2.8.4
     resolution:
-      integrity: sha512-jfc2mjfwqMvjXDCYvrXwGY1i9MK+1P4COiCnT1r5rMl6IssSNH2WqvaqJFtRWGtgp/QiBY69B6wM6qSJIkOSeg==
-  /@tensorflow/tfjs-converter/2.8.2:
+      integrity: sha512-aH2IBRnDqDfLIRm7UmjCiqBFc9/BjMiIOJ64Gujk6f+oky93y9D5dxJyQK1zdkOJMjKUB+FJk26A3QHyQvBQfw==
+  /@tensorflow/tfjs-converter/2.8.4:
     dev: false
     peerDependencies:
-      '@tensorflow/tfjs-core': 2.8.2
+      '@tensorflow/tfjs-core': 2.8.4
     resolution:
-      integrity: sha512-JJPrS2SClMEnvoC/vBOUlWa03UBl6ZZRIeddjgTo+V1CJyvtYr+njySz9lX5HoCBtrcrLkMcd+1IYFKtgFH1Cg==
-  /@tensorflow/tfjs-core/2.8.2:
+      integrity: sha512-WpkczxZBGf4lbNzYwftLrwGEofTk8p7yxy+kLy3iombeQHQ/PdROeZLHb90fkdR9g6nzs3POr+/aTTE9teMK7g==
+  /@tensorflow/tfjs-core/2.8.4:
     dependencies:
       '@types/offscreencanvas': 2019.3.0
       '@types/seedrandom': 2.4.27
@@ -1440,7 +1447,7 @@ packages:
     engines:
       yarn: '>= 1.3.2'
     resolution:
-      integrity: sha512-r3Df7phzNa80uoTtlcBGJ/rf+kweSKgN1/VmBT7b53womzoYlw3fQHlZ1WKUbHL9kOf2Zt4y2PPcBiKUQYQC+Q==
+      integrity: sha512-b0y9vI+O60LKjkAS20BTpwajCagVhEMHGKX/Y0D7B8DRlSrdkjPBXOI9P4GbIO0KiFpIhEftIlwPHpHky1JgpQ==
   /@types/cacheable-request/6.0.1:
     dependencies:
       '@types/http-cache-semantics': 4.0.0
@@ -4748,6 +4755,16 @@ packages:
     dev: true
     resolution:
       integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
+  /lit-element/2.4.0:
+    dependencies:
+      lit-html: 1.3.0
+    dev: false
+    resolution:
+      integrity: sha512-pBGLglxyhq/Prk2H91nA0KByq/hx/wssJBQFiYqXhGDvEnY31PRGYf1RglVzyLeRysu0IHm2K0P196uLLWmwFg==
+  /lit-html/1.3.0:
+    dev: false
+    resolution:
+      integrity: sha512-0Q1bwmaFH9O14vycPHw8C/IeHMk/uSDldVLIefu/kfbTBGIc44KGH6A8p1bDfxUfHdc8q6Ct7kQklWoHgr4t1Q==
   /loader-runner/2.4.0:
     dev: true
     engines:
@@ -7442,10 +7459,17 @@ packages:
     resolution:
       integrity: sha1-fRh9tcbNu9ZNdaMvkbiZi94yc8M=
   /svelte-hmr/0.12.2:
+    dev: true
     peerDependencies:
       svelte: '>=3.19.0'
     resolution:
       integrity: sha512-86fpj4Wjno7OREJsGxQwpVBtB3kmiKWwpOlvdZmfBZYankpL38lcVtAi1zvQXXcN4g8pRXUG68khwp6dYRwpYg==
+  /svelte-hmr/0.12.3:
+    dev: false
+    peerDependencies:
+      svelte: '>=3.19.0'
+    resolution:
+      integrity: sha512-hyggTjuA6E/jWYltj8Q9B9sSumOqopBurwFcqwys4LUp7cCE0H0UC6uYyfvQlEdCCQokON/5E8bmHBOBDUUU9A==
   /svelte-loader/2.13.6:
     dependencies:
       loader-utils: 1.4.0
@@ -7478,12 +7502,12 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-s7KdhR2pOsffyOzZIMEb315f6pfgeDnOWN47m6YKFeSEx3NMf/79Znc3vuG/Ai79SL/vsi86WDrjFPLGRfDesg==
-  /svelte/3.31.1:
+  /svelte/3.31.2:
     dev: false
     engines:
       node: '>= 8'
     resolution:
-      integrity: sha512-Q8xVz5U/IFFNjgvVSjdzKJPAX0MFytFwiJo1HAPfGwM7LkHA+BN2q2kL8vKcJwjku7/509MapLov8C9SjogNRg==
+      integrity: sha512-TxZGrXzX2ggFH3BIKY5fmbeMdJuZrMIMDYPMX6R9255bueuYIuVaBQSLUeY2oD7W4IdeqRZiAVGCjDw2POKBRA==
   /svgo/1.3.2:
     dependencies:
       chalk: 2.4.2
@@ -8189,14 +8213,15 @@ specifiers:
   '@pixi/sprite': 5.3.7
   '@pixi/ticker': 5.3.7
   '@pixi/utils': 5.3.7
+  '@pwabuilder/pwaupdate': ^0.2.0
   '@snowpack/plugin-dotenv': ^2.0.4
   '@snowpack/plugin-svelte': ^3.4.1
   '@snowpack/plugin-webpack': ^2.1.3
   '@tensorflow-models/face-landmarks-detection': ^0.0.2
-  '@tensorflow/tfjs-backend-wasm': ^2.8.2
-  '@tensorflow/tfjs-backend-webgl': ^2.8.2
-  '@tensorflow/tfjs-converter': ^2.8.2
-  '@tensorflow/tfjs-core': ^2.8.2
+  '@tensorflow/tfjs-backend-wasm': ^2.8.4
+  '@tensorflow/tfjs-backend-webgl': ^2.8.4
+  '@tensorflow/tfjs-converter': ^2.8.4
+  '@tensorflow/tfjs-core': ^2.8.4
   interactjs: ^1.10.1
   jszip: ^3.5.0
   'null': ^2.0.0
@@ -8206,7 +8231,7 @@ specifiers:
   rollup-plugin-node-polyfills: ^0.1.2
   snowpack: ^2.18.5
   snowpack-plugin-rollup-bundle: ^0.3.3
-  svelte: ^3.31.0
-  svelte-hmr: ^0.12.2
+  svelte: ^3.31.2
+  svelte-hmr: ^0.12.3
   svelte-loader: ^2.13.6
   svelte-preprocess: ^4.6.1
