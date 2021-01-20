@@ -245,6 +245,9 @@ body.user-is-tabbing input:focus + container {
   font-variation-settings: "wght" 100;
   transition-property: font-variation-settings; */
 }
+.fill.small{
+  font-size: 40px;
+}
 .icon-fill {
   position: absolute;
 }
@@ -257,6 +260,9 @@ body.user-is-tabbing input:focus + container {
 .solid {
   position: relative;
   pointer-events: none;
+}
+.solid.small{
+  font-size:44px;
 }
 
 @media only screen and (hover: hover) {
