@@ -29,7 +29,7 @@
     "@pixi/math": "5.3.7",
     "@pixi/display": "5.3.7",
     "@pixi/graphics": "5.3.7",
-    "pixi-live2d-display": "^0.3.0-beta.2",
+    "pixi-live2d-display": "^0.3.0",
     "peerjs": "^1.3.1",
     "@tensorflow/tfjs-core": "^2.8.5",
     "@tensorflow/tfjs-converter": "^2.8.5",

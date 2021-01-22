@@ -6,7 +6,7 @@ Kalidoface is perfect for livestreaming, chatting with friends, or just having f
 
 ### Use your own Live2D models
 
-Kalidoface works with Live2D rigged characters from Cubism 2.0 and 4.0 files. Upload your own .zip for a truly custom experience.Full guide coming soon, this feature is still in beta and might run into some issues from time to time.
+Kalidoface works with Live2D rigged characters from Cubism 2.0 and 4.0 files. Upload your own .zip for a truly custom experience. [Video guide here!](https://twitter.com/yeemachine/status/1352470128571473920) This feature is still in beta and might run into some issues from time to time.
 
 ![Live2D files support](https://raw.githubusercontent.com/yeemachine/kalidoface-live2d-models/main/promo/filedrop-short.gif)
 
