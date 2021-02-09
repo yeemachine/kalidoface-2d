@@ -49,14 +49,63 @@
   }
 }
 
+@keyframes scaleOut {
+  0% {
+    transform: scale(0,1);
+  }
+  100% {
+    transform: scale(1,1);
+  }
+}
+
+@keyframes flyIn {
+  0% {
+    opacity: 0;
+    transform:translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform:translateY(0px);
+  }
+}
+
+@keyframes whiteToBlue {
+  0% {
+    color: white;
+  }
+  100% {
+    color: var(--lightBlue);
+  }
+}
+
+  @keyframes pulse-animation {
+  0% {
+    transform:scale(1);
+    opacity:0;
+/*     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2); */
+  }
+  20% {
+    transform:scale(1);
+    opacity:1;
+/*     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2); */
+  }
+  100% {
+    transform:scale(var(--scale));
+    opacity:0;
+/*     box-shadow: 0 0 0 30px rgba(0, 0, 0, 0); */
+  }
+}
+
 :root {
   --offblack: #16161d;
   --lapizBlue: #4450F3;
   --lightBlue: #009df7;
   --lapizGrey: #3f3f4e;
   --lightRed: rgb(189 70 106);
+  --peach:#f07792;
   /*   --iconbg: #58586e; */
-  --iconbg: #504e62;
+  --darkgrey: #504e62;
+  --iconbg:#676482;
   --accent: #233db5;
   --pos: #109210;
   --neg: #c51d1d;
@@ -239,7 +288,7 @@ body.user-is-tabbing input:focus + container {
   transform: scale(1);
   transition: 0.15s;
   font-size: 64px;
-  text-shadow: 0px 0px 4px #00000030;
+  text-shadow: 0px 0px 8px #00000020;
   pointer-events: none;
   /*   transition: .5s;
   font-variation-settings: "wght" 100;
@@ -263,6 +312,23 @@ body.user-is-tabbing input:focus + container {
 }
 .solid.small{
   font-size:44px;
+}
+.pulse{
+    --scale:1.8;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background:rgba(0,0,0,0.2);
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 55%, rgba(0,0,0,.5) 80%, rgba(0,0,0,.5) 100%);
+    opacity:0;
+    transform:scale(1);
+/*     -webkit-box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.2); */
+    animation: pulse-animation 2s infinite;
+    animation-fill-mode:forwards;
+    animation-timing-function:ease;
 }
 
 @media only screen and (hover: hover) {
