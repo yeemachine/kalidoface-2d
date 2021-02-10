@@ -11,13 +11,6 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 */
 
 /*!
-    localForage -- Offline Storage, Improved
-    Version 1.9.0
-    https://localforage.github.io/localForage
-    (c) 2013-2017 Mozilla, Apache License 2.0
-*/
-
-/*!
  * @pixi/display - v5.3.7
  * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
@@ -54,13 +47,6 @@ https://github.com/nodeca/pako/blob/master/LICENSE
  *
  * @author   Feross Aboukhadijeh <http://feross.org>
  * @license  MIT
- */
-
-/*!
- * iro.js v5.3.1
- * 2016-2020 James Daniel
- * Licensed under MPL 2.0
- * github.com/jaames/iro.js
  */
 
 /*! *****************************************************************************
