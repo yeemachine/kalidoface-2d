@@ -18,10 +18,26 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 */
 
 /*!
+ * @pixi/constants - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
+ *
+ * @pixi/constants is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
  * @pixi/display - v5.3.7
  * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/display is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-color-matrix - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
+ *
+ * @pixi/filter-color-matrix is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
@@ -34,6 +50,14 @@ https://github.com/nodeca/pako/blob/master/LICENSE
  */
 
 /*!
+ * @pixi/loaders - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
+ *
+ * @pixi/loaders is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
  * @pixi/settings - v5.3.7
  * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
@@ -42,10 +66,26 @@ https://github.com/nodeca/pako/blob/master/LICENSE
  */
 
 /*!
+ * @pixi/sprite - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
+ *
+ * @pixi/sprite is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
  * @pixi/ticker - v5.3.7
  * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/ticker is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/utils - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
+ *
+ * @pixi/utils is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
@@ -63,6 +103,15 @@ https://github.com/nodeca/pako/blob/master/LICENSE
  * github.com/jaames/iro.js
  */
 
+/*!
+ * resource-loader - v3.0.1
+ * https://github.com/pixijs/pixi-sound
+ * Compiled Tue, 02 Jul 2019 14:06:18 UTC
+ *
+ * resource-loader is licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation. All rights reserved.
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
@@ -77,6 +126,8 @@ MERCHANTABLITY OR NON-INFRINGEMENT.
 See the Apache Version 2.0 License for specific language governing permissions
 and limitations under the License.
 ***************************************************************************** */
+
+/*! https://mths.be/punycode v1.4.1 by @mathias */
 
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 

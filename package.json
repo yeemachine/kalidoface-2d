@@ -41,7 +41,8 @@
     "jszip": "^3.5.0",
     "@pwabuilder/pwaupdate": "^0.2.0",
     "@jaames/iro": "^5.3.1",
-    "localforage": "^1.9.0"
+    "localforage": "^1.9.0",
+    "@pixi/filter-color-matrix": "^5.3.7"
   },
   "devDependencies": {
     "snowpack": "^2.18.5",

@@ -3,6 +3,7 @@ dependencies:
   '@pixi/app': 5.3.7
   '@pixi/core': 5.3.7
   '@pixi/display': 5.3.7
+  '@pixi/filter-color-matrix': 5.3.7
   '@pixi/graphics': 5.3.7
   '@pixi/interaction': 5.3.7
   '@pixi/loaders': 5.3.7
@@ -1091,6 +1092,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-ma1JyLe5vaEgmaOR+anvj5YOKqT9OEWnboIe7NVmwGF1CZ7JFnB12rsRulHUsSaFG9bP5xjvroAZjFg/WvyGLw==
+  /@pixi/filter-color-matrix/5.3.7:
+    dependencies:
+      '@pixi/core': 5.3.7
+    dev: false
+    resolution:
+      integrity: sha512-Z12cxoHx9uMh3CZ0PLVRzsaFHHF/CfU3J83KI9k+Bg/DFOh/J/5EToCd44jYJbMKp3nvXcO1EJyZ3wwC/IsyfQ==
   /@pixi/graphics/5.3.7:
     dependencies:
       '@pixi/constants': 5.3.7
@@ -8273,6 +8280,7 @@ specifiers:
   '@pixi/app': 5.3.7
   '@pixi/core': 5.3.7
   '@pixi/display': 5.3.7
+  '@pixi/filter-color-matrix': ^5.3.7
   '@pixi/graphics': 5.3.7
   '@pixi/interaction': 5.3.7
   '@pixi/loaders': ^5.3.7

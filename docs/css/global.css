@@ -331,6 +331,10 @@ body.user-is-tabbing input:focus + container {
     animation-timing-function:ease;
 }
 
+ :picture-in-picture{
+  background:red;
+  }
+
 @media only screen and (hover: hover) {
   button:hover .fill,
   label:hover .fill {
