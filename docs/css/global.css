@@ -127,23 +127,42 @@ button {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
+html{
+  height:100%;
+  width:100%;
+}
+/* html{
+  box-sizing: border-box;
+}
+*, ::after, ::before {
+box-sizing: inherit;
+} */
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
+/*   max-width: 100%;
+  max-height: 100%; */
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  position: absolute;
+  position: relative;
   background: var(--offblack);
   display: flex;
   align-items: center;
   justify-content: center;
+/*    padding:
+    0
+    env(safe-area-inset-right, 0)
+    0
+    env(safe-area-inset-left, 0); */
 }
-
+@media all and (display-mode: standalone) and (max-width: 600px) {
+  body{
+    height:100vh;
+  }
+}
 pwa-update::part(updateToast),
 pwa-update::part(offlineToast) {
   z-index: 100;
@@ -187,12 +206,16 @@ h1 {
   width: clamp(280px, 80vw, 600px);
   text-align: center;
   font-size: clamp(40px, 11.5vw, 80px);
-  margin-bottom: clamp(80px, 22.5vw, 120px);
+  margin-bottom: clamp(0px, 4vw, 120px);
   color: white;
   font-variation-settings: "wght" 100;
   animation: jiggle 0.8s infinite;
   animation-timing-function: cubic-bezier(0.26, 0.3, 0.66, 0.65);
   font-weight: normal;
+  height: max-content;
+margin-top: 0;
+/*   top:0;left:0;right:0;bottom:0;
+  margin:auto; */
   transition: opacity 1s;
 }
 h1.fade {
