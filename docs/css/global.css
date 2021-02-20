@@ -158,12 +158,12 @@ body {
     0
     env(safe-area-inset-left, 0); */
 }
-@media all and (display-mode: fullscreen) and (max-width: 600px) {
+@media all and (display-mode: fullscreen) {
   body{
     height:100vh;
   }
 }
-pwa-update::part(updateToast),
+/* pwa-update::part(updateToast),
 pwa-update::part(offlineToast) {
   z-index: 100;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -177,7 +177,6 @@ pwa-update::part(offlineToast) {
 pwa-update::part(updateToast) {
   background: #504e62;
   width: 280px;
-  /*   display:none; */
 }
 pwa-update::part(offlineToast) {
   background: #504e6235;
@@ -198,7 +197,7 @@ pwa-update::part(updateToast) button {
     width: auto;
     right:16px;
   }
-}
+} */
 
 h1 {
   font-family: "Jelly";
