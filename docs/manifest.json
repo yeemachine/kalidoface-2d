@@ -1,12 +1,12 @@
 {
-    "name": "Kalidoface - Become a Virtual Character",
+    "name": "Kalidoface",
     "short_name": "Kalidoface",
     "background_color": "#000000",
     "theme_color": "#000000",
     "display": "fullscreen",
     "start_url": "./?source=pwa",
     "icons": [
-        {
+         {
             "src": "https://yeemachine.github.io/kalidoface-live2d-models/Icons/manifest-icon-192.png",
             "sizes": "192x192",
             "type": "image/png",
@@ -34,7 +34,7 @@
             "type": "image/png"
         }
     ],
-    "orientation": "portrait",
+    "orientation": "any",
     "description": "Animate virtual characters using your browser webcam in real time! Perfect for livestreaming, chatting with friends, or just having fun!",
     "scope": "/"
 }
