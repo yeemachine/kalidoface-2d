@@ -4,6 +4,8 @@ Kalidoface is perfect for livestreaming, chatting with friends, or just having f
 
 ![Kalidoface virtual webcam](https://raw.githubusercontent.com/yeemachine/kalidoface-live2d-models/main/promo/TW-Promo-short.gif)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B75DIY1)
+
 ### Use your own Live2D models
 
 Kalidoface works with Live2D rigged characters from Cubism 2.0 and 4.0 files. Upload a <b>.zip</b> of your <b>Live2D runtime folder</b> to save your own characters for face tracking. Files are auto-saved for future visits! [Video guide here!](https://twitter.com/yeemachine/status/1352470128571473920).
