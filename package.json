@@ -34,7 +34,7 @@
     "@mediapipe/holistic": "^0.5.1635989137",
     "@mediapipe/drawing_utils": "^0.3.1620248257",
     "@mediapipe/face_mesh": "^0.4.1633559619",
-    "kalidokit": "^1.0.1"
+    "kalidokit": "^1.0.4"
   },
   "devDependencies": {
     "snowpack": "^2.18.5",
