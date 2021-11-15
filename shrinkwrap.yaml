@@ -8652,7 +8652,7 @@ specifiers:
   rollup-plugin-node-polyfills: ^0.1.2
   snowpack: ^2.18.5
   snowpack-plugin-rollup-bundle: ^0.3.3
-  svelte: ^3.38.3
+  svelte: ^3.42.4
   svelte-hmr: ^0.14.3
   svelte-loader: ^3.1.2
   svelte-preprocess: ^4.7.3
