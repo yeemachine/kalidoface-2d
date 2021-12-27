@@ -5,13 +5,13 @@ dependencies:
   '@mediapipe/holistic': 0.5.1635989137
   '@pwabuilder/pwaupdate': 0.2.0
   '@tensorflow-models/face-landmarks-detection': 0.0.3
-  '@tensorflow/tfjs-backend-wasm': 3.11.0
+  '@tensorflow/tfjs-backend-wasm': 3.12.0
   '@tensorflow/tfjs-backend-webgl': 3.11.0
-  '@tensorflow/tfjs-converter': 3.11.0
-  '@tensorflow/tfjs-core': 3.11.0
+  '@tensorflow/tfjs-converter': 3.12.0
+  '@tensorflow/tfjs-core': 3.12.0
   interactjs: 1.10.11
   jszip: 3.7.1
-  kalidokit: 1.0.4
+  kalidokit: 1.1.2
   localforage: 1.10.0
   parcel: 1.12.4
   peerjs: 1.3.2
@@ -1231,6 +1231,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Fbi5U4Vdkw6UsF+R3oMlPONqkvUDMkwzh+mX718gQsDFt3+1r1jvGsrfCbedmXAAy0WsjDHOrefK0BkDk99TQg==
+  /@mediapipe/camera_utils/0.3.1640029074:
+    dev: false
+    resolution:
+      integrity: sha512-jRV/Mp2lgqNYT68TeVRu/Xq+ptZO9F9vCjxzQsA3VM2r7oXg0TrnfO9De2KKOUTpt0p28dKHs625J8GdWjha8A==
   /@mediapipe/drawing_utils/0.3.1620248257:
     dev: false
     resolution:
@@ -1318,6 +1322,16 @@ packages:
       node: '>= 6.0.0'
     resolution:
       integrity: sha512-USSjRAAQYsZFlv43FUPdD+jEGML5/8oLF0rUzPQTtK4q9kvaXr49F5ZplyLz5lox78cLZ0TxN2bIDQ1xhOkulQ==
+  /@pixiv/three-vrm/0.6.7/three@0.133.1:
+    dependencies:
+      three: 0.133.1
+    dev: false
+    id: registry.npmjs.org/@pixiv/three-vrm/0.6.7
+    peerDependencies:
+      '@types/three': ^0.131.0
+      three: ^0.133.0
+    resolution:
+      integrity: sha512-nlv8T89m4loRGh+QfqqNWlJTS3eG7F42pwmGGxLDcruX65ZqDll3C2D+o6M0yHRsTQYPGYNCw2DSuzr2GMCVmA==
   /@pwabuilder/pwaupdate/0.2.0:
     dependencies:
       lit-element: 2.5.1
@@ -1574,15 +1588,26 @@ packages:
       '@tensorflow/tfjs-core': 3.11.0
     resolution:
       integrity: sha512-ShLkrZ4/rmhZwzGKenMFDfQnaEbyZgWA5F8JRa52Iob/vptlZeuOzjq87CZKmZMUmDswR9A2kjzovT/H1bJdWQ==
-  /@tensorflow/tfjs-backend-wasm/3.11.0:
+  /@tensorflow/tfjs-backend-cpu/3.12.0:
     dependencies:
-      '@tensorflow/tfjs-backend-cpu': 3.11.0
+      '@types/seedrandom': 2.4.27
+      seedrandom: 2.4.3
+    dev: false
+    engines:
+      yarn: '>= 1.3.2'
+    peerDependencies:
+      '@tensorflow/tfjs-core': 3.12.0
+    resolution:
+      integrity: sha512-UMf/OHHCzm/+oKXtTDnanlyYFNNKKU5u2hJooKak1JqSOEKChBOPYKmxf9VWmY7Pos4GbbKH/V1pLzfLnLq+Bg==
+  /@tensorflow/tfjs-backend-wasm/3.12.0:
+    dependencies:
+      '@tensorflow/tfjs-backend-cpu': 3.12.0
       '@types/emscripten': 0.0.34
     dev: false
     peerDependencies:
-      '@tensorflow/tfjs-core': 3.11.0
+      '@tensorflow/tfjs-core': 3.12.0
     resolution:
-      integrity: sha512-49+MSIa/tOelbr4J0Q+ZMuDGQiAaenUsy9exfaQvEo/FzjV+aitVB7r9IojLCxyB4cfAtqKUGHwmRoreJnN7jw==
+      integrity: sha512-H4OmQkebiCpDdWiH5Ob2G+1+jzGNffG2FlkWV5y66RM/wZijYyCKIg4Nm7KCSUrvZPhkhP622QhM2BPvI9U8hA==
   /@tensorflow/tfjs-backend-webgl/3.11.0:
     dependencies:
       '@tensorflow/tfjs-backend-cpu': 3.11.0
@@ -1598,13 +1623,13 @@ packages:
       '@tensorflow/tfjs-core': 3.11.0
     resolution:
       integrity: sha512-rNnc/dZ7LIl9O/Pn9W24I1h8kgpJ+XvG8NrdNSfIoWPCW4fvPSlU7B3yMeZXvRneny+z+T3xRs96nWyU2mZBJw==
-  /@tensorflow/tfjs-converter/3.11.0:
+  /@tensorflow/tfjs-converter/3.12.0:
     dev: false
     peerDependencies:
-      '@tensorflow/tfjs-core': 3.11.0
+      '@tensorflow/tfjs-core': 3.12.0
     resolution:
-      integrity: sha512-rTRIKvBoqL0qdPYpm8UXauZycOiaBHZB2E2v3OoXoHnjvle/Xn/09uZJdrixgGhR+Kahs3Vz27BEEFz6RI5j2w==
-  /@tensorflow/tfjs-core/3.11.0:
+      integrity: sha512-WO6FreEB83CgFwvcyrzyaWG5WshanfyhTI6rOqSbjY86+MlJprTn4fuY9qbnYk/gDLhxEaUpYgubamY4g4L76g==
+  /@tensorflow/tfjs-core/3.12.0:
     dependencies:
       '@types/long': 4.0.1
       '@types/offscreencanvas': 2019.3.0
@@ -1617,7 +1642,7 @@ packages:
     engines:
       yarn: '>= 1.3.2'
     resolution:
-      integrity: sha512-JOp+1+LCd0Xg3hu7fu6iQPWZnN8Hc6ssfP7B+625XH5GYY1/OhVASa7Ahe2mJr9gZovY2lw8FUejLh1jMmBb1Q==
+      integrity: sha512-0rXf+aMjfkFLan7qna+L7DjfSZaaRibKgq9XuorjSy9rZcdZLE2IHFTzYR7B8mdlnq2szArKzm+JXqa9grTl7w==
   /@tootallnate/once/1.1.2:
     dev: true
     engines:
@@ -5053,10 +5078,16 @@ packages:
     dev: false
     resolution:
       integrity: sha512-ghL0tz1XG9ZEmRMcEN2vt7xabrDdqHHeykgARpmZ0BiIctWxM47Vt63ZO2dnp4QYt/xJVLLy5Zv1l/xRdh2byg==
-  /kalidokit/1.0.4:
+  /kalidokit/1.1.2:
+    dependencies:
+      '@mediapipe/camera_utils': 0.3.1640029074
+      '@mediapipe/drawing_utils': 0.3.1620248257
+      '@mediapipe/holistic': 0.5.1635989137
+      '@pixiv/three-vrm': /@pixiv/three-vrm/0.6.7/three@0.133.1
+      three: 0.133.1
     dev: false
     resolution:
-      integrity: sha512-PfQB28Yc/+kswGPT9iyf9vWVPUR/oo170MOZ0sr56IyUj0ECelXcCyJlYdky1DUynSPiKW46QNc1b+JQjYzCJg==
+      integrity: sha512-ehvGDpQ17nwwTSylN9G8Aiutllp2dbEkOIMmjFHGhYJMXCUCulmsxtViWLmKpGqwCdye9LMOAjucjT+U+okGEQ==
   /keyv/4.0.4:
     dependencies:
       json-buffer: 3.0.1
@@ -8019,6 +8050,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-h5hxa23sCdpzcye/7b8YqbE5OwKca/ni0RQz1uRX3tGh8haaGHqcuSqbGRybuAKNdntZ0mDgFNXPJ48xQ2RXKQ==
+  /three/0.133.1:
+    dev: false
+    resolution:
+      integrity: sha512-WydohO8ll949B0FTD6MGz59Yv2Lwj8hvObg/0Heh2r42S6+tQC1WByfCNRdmG4D7+odfGod+n8JPV1I2xrboWw==
   /through2/2.0.5:
     dependencies:
       readable-stream: 2.3.7
@@ -8637,13 +8672,13 @@ specifiers:
   '@snowpack/plugin-svelte': ^3.4.1
   '@snowpack/plugin-webpack': ^2.1.3
   '@tensorflow-models/face-landmarks-detection': ^0.0.3
-  '@tensorflow/tfjs-backend-wasm': ^3.9.0
+  '@tensorflow/tfjs-backend-wasm': ^3.12.0
   '@tensorflow/tfjs-backend-webgl': ^3.11.0
-  '@tensorflow/tfjs-converter': ^3.11.0
-  '@tensorflow/tfjs-core': ^3.11.0
+  '@tensorflow/tfjs-converter': ^3.12.0
+  '@tensorflow/tfjs-core': ^3.12.0
   interactjs: ^1.10.11
   jszip: ^3.5.0
-  kalidokit: ^1.0.4
+  kalidokit: ^1.1.2
   localforage: ^1.9.0
   'null': ^2.0.0
   parcel: ^1.12.4
